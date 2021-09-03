@@ -10,6 +10,13 @@ uploader_classes = {
 }
 
 
+def pyuploader(host, name):
+    uploader_class = uploader_classes[host]
+    uploader_instance = uploader_class(name)
+    result = uploader_instance.execute()
+    print("Your link : {}".format(result))
+
+
 @click.command()
 @click.option('--host', default='nanmemes', help='nanmemes/catbox/mixtape/uguu/fileio')
 @click.argument('name')

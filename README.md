@@ -23,6 +23,13 @@ pyupload .gitignore --host=catbox
 [1674/1674] bytes |====================>|Your link : https://files.catbox.moe/e03ygs.gitignore
 ```
 
+## Importing in python
+```
+from pyupload import pyuploader
+
+pyuploader(host, filename)
+```
+
 ## Running Tests
 ```
 python3 upload_test.py
@@ -30,8 +37,3 @@ python3 upload_test.py
 
 ## Issues? Changes?
 Just open an issue/pull requests
-
-## Importing in python
-```
-from pyupload.main import upload as pyupload
-```
