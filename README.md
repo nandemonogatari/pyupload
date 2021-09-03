@@ -30,3 +30,8 @@ python3 upload_test.py
 
 ## Issues? Changes?
 Just open an issue/pull requests
+
+## Importing in python
+```
+from pyupload.main import upload as pyupload
+```

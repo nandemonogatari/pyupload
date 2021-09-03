@@ -11,7 +11,7 @@ uploader_classes = {
 
 
 @click.command()
-@click.option('--host', default='catbox', help='catbox/mixtape/uguu/fileio')
+@click.option('--host', default='nanmemes', help='nanmemes/catbox/mixtape/uguu/fileio')
 @click.argument('name')
 def upload(host, name):
     uploader_class = uploader_classes[host]
