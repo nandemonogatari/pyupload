@@ -5,7 +5,8 @@ uploader_classes = {
     "catbox": CatboxUploader,
     "mixtape": MixTapeUploader,
     "uguu": UguuUploader,
-    "fileio": FileioUploader
+    "fileio": FileioUploader,
+    "nanmemes": NanUploader,
 }
 
 
